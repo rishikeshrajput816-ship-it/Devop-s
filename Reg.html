@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>REGISRATION FORM</title>
+    <script>
+    function show()
+    {
+     var name=document.getElementById("username").value;
+     var age=document.getElementById("age").value;
+     var email=document.getElementById("email").value;
+    if(name&&age&&email)
+     document.getElementById("one").innerText="registered";
+    else
+         document.getElementById("one").innerText="not registered";
+    }
+    </script>
+</head>
+<body>
+<form>
+<H2>REGISTARTION FORM</H2>
+<label>username</label><input type="text" id="username" size="30"<br><br><br>
+<label>age</label><input type="text" id="age" size="30"<br><br><br>
+<label>email</label><input type="text" id="email" size="30"<br><br><br>
+<label>Gender</label><input type="radiobutton" id="Gender" size="30"<br><br><br>
+<input type="button" value="submit" onclick="show()">
+<input type="reset" value="reset">
+</form>
+<p id="one"></p>
+</body>
+</html>
