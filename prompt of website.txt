@@ -1,0 +1,678 @@
+You are an expert full-stack software engineer, UI/UX designer, database architect, security engineer, and quality assurance tester.
+
+Your task is to design and build a complete, clean, professional, beginner-friendly, working web application.
+
+Project Name:
+
+RR Consultancy Service
+
+Tagline:
+
+Restaurant Recruitment & Hiring Platform
+
+
+===========================================================
+PROJECT OVERVIEW
+===========================================================
+
+Build a recruitment platform specifically designed for the restaurant and hospitality industry.
+
+The purpose of this platform is to connect:
+
+1. EMPLOYERS
+(Restaurants, Hotels, Cafes, Cloud Kitchens, Bakeries, Catering Services, Canteens)
+
+with
+
+2. APPLICANTS
+(Chefs, Cooks, Kitchen Staff, Restaurant Workers, Hospitality Professionals)
+
+The platform will allow EMPLOYERS to post job openings and allow APPLICANTS to search and apply for suitable jobs.
+
+The complete platform will be managed by an ADMIN.
+
+The website should be simple, reliable, professional, easy to maintain, and scalable.
+
+Do not create unnecessary complexity.
+
+Focus on:
+
+• Working functionality
+• Clean UI/UX
+• Secure data handling
+• Easy navigation
+• Good performance
+• Beginner-friendly maintenance
+
+
+===========================================================
+IMPORTANT DEVELOPMENT RULES
+===========================================================
+
+Build a real working application.
+
+Do not create only static pages or designs.
+
+All forms, buttons, dashboards, and features should work properly.
+
+Use proper database integration.
+
+Store all required data securely.
+
+Use reusable components.
+
+Write clean, organized, maintainable code.
+
+Add proper validation, loading states, error messages, and success messages.
+
+The application should be responsive on:
+
+• Desktop
+• Tablet
+• Mobile
+
+
+===========================================================
+USER ROLES
+===========================================================
+
+The website must have three separate user roles:
+
+1. ADMIN
+
+2. EMPLOYER
+
+3. APPLICANT
+
+
+Each role must have:
+
+• Separate login access
+• Separate dashboard
+• Different permissions
+• Protected routes
+• Role-based access control
+
+
+===========================================================
+PUBLIC WEBSITE
+===========================================================
+
+Create the following public pages:
+
+
+HOME PAGE
+
+Include:
+
+• Website introduction
+• Purpose of RR Consultancy Service
+• Benefits for Employers
+• Benefits for Applicants
+• Call-to-action sections
+
+
+ABOUT US
+
+Explain:
+
+• Company vision
+• Mission
+• Purpose
+
+
+SERVICES
+
+Explain:
+
+• Restaurant recruitment services
+• Hiring solutions
+• Applicant support
+
+
+JOB SEARCH PAGE
+
+Allow visitors to browse available jobs.
+
+
+PRICING PAGE
+
+Display employer subscription plans.
+
+
+FAQ PAGE
+
+Answer common questions.
+
+
+CONTACT PAGE
+
+Include:
+
+• Contact form
+• WhatsApp support
+• Email support
+
+
+Footer should include:
+
+• Links
+• Contact information
+• Social media placeholders
+
+
+===========================================================
+ADMIN FEATURES
+===========================================================
+
+ADMIN controls and manages the complete platform.
+
+
+ADMIN LOGIN
+
+Create a secure ADMIN login system.
+
+
+ADMIN DASHBOARD
+
+Create dashboard cards showing:
+
+• Total Employers
+• Total Applicants
+• Active Jobs
+• Total Applications
+• Revenue
+
+
+ADMIN MANAGEMENT FEATURES
+
+
+Employer Management:
+
+• View Employers
+• Approve Employers
+• Reject Employers
+• Suspend Employers
+
+
+Applicant Management:
+
+• View Applicants
+• Manage Applicant accounts
+• Verify Applicant profiles
+
+
+Job Management:
+
+• View all jobs
+• Approve job postings
+• Remove unwanted jobs
+• Manage job categories
+
+
+Subscription Management:
+
+ADMIN can create and modify:
+
+• Monthly plans
+• Yearly plans
+• Price
+• GST percentage
+• Benefits
+• Validity period
+
+
+Payment Management:
+
+View:
+
+• Payments
+• Subscription history
+• Revenue
+
+
+Basic Analytics:
+
+Display:
+
+• User count
+• Job statistics
+• Application statistics
+
+
+Basic Verification:
+
+Employers can upload business documents.
+
+Applicants can upload:
+
+• Resume
+• Certificates
+
+ADMIN can manually verify them.
+
+
+===========================================================
+EMPLOYER FEATURES
+===========================================================
+
+EMPLOYERS are restaurant and hospitality businesses looking to hire.
+
+
+EMPLOYER REGISTRATION
+
+Collect:
+
+• Business name
+• Owner name
+• Email
+• Phone number
+• Password
+• Location
+
+
+EMPLOYER DASHBOARD
+
+Dashboard cards:
+
+• Jobs Posted
+• Active Jobs
+• Applications Received
+• Shortlisted Candidates
+• Hired Candidates
+
+
+EMPLOYER PROFILE
+
+Allow management of:
+
+• Business information
+• Contact details
+• Billing details
+
+
+MY OUTLETS
+
+Allow employers to manage multiple restaurant locations.
+
+Example:
+
+• Hyderabad Branch
+• Bangalore Branch
+
+
+JOB POSTING
+
+Employers can create jobs with:
+
+• Job title
+• Category
+• Salary
+• Experience required
+• Skills required
+• Location
+• Job description
+• Number of vacancies
+
+
+JOB MANAGEMENT
+
+Employers can:
+
+• Create jobs
+• Edit jobs
+• Delete jobs
+• Close jobs
+
+
+APPLICANT MANAGEMENT
+
+Employers can:
+
+• View applicants
+• View profiles
+• View resumes
+• Shortlist applicants
+• Reject applicants
+• Hire applicants
+
+
+INTERVIEW SCHEDULER
+
+Keep this feature simple.
+
+Employers can:
+
+• Select applicant
+• Choose interview date
+• Choose interview time
+• Add notes
+
+
+Applicants receive notification.
+
+
+EMPLOYER SUBSCRIPTION
+
+Employers can:
+
+• View plans
+• Purchase plans
+• Renew plans
+
+
+===========================================================
+APPLICANT FEATURES
+===========================================================
+
+Applicants are people searching for restaurant jobs.
+
+
+APPLICANT REGISTRATION
+
+Collect:
+
+• Name
+• Email
+• Phone number
+• Password
+
+
+APPLICANT PROFILE
+
+Include:
+
+• Personal details
+• Resume
+• Experience
+• Skills
+• Certifications
+• Expected salary
+• Preferred location
+
+
+ADD SKILLS
+
+Applicants can add:
+
+• Cooking skills
+• Cuisine knowledge
+• Experience
+• Certifications
+
+
+PROFILE COMPLETION
+
+Show profile completion percentage.
+
+Example:
+
+Profile Completion: 80%
+
+Show missing information.
+
+
+JOB SEARCH
+
+Applicants can search using:
+
+
+Search Bar
+
+Filters:
+
+• Category
+• Salary
+• Location
+• Experience
+• Employment type
+
+
+MATCHING JOBS
+
+Show suitable jobs based on:
+
+• Skills
+• Experience
+• Salary expectations
+
+
+APPLICATION SYSTEM
+
+Applicants can:
+
+• Apply for jobs
+• View applied jobs
+• Track application status
+
+
+JOB STATUS
+
+Use clear statuses:
+
+• Active
+• Applied
+• Under Review
+• Shortlisted
+• Interview Scheduled
+• Selected
+• Rejected
+• Closed
+
+
+===========================================================
+AUTHENTICATION & PASSWORD SYSTEM
+===========================================================
+
+Implement a secure and user-friendly authentication system for:
+
+• ADMIN
+• EMPLOYER
+• APPLICANT
+
+
+Registration Requirements:
+
+• Users register using email.
+• Email verification should be supported.
+• Passwords must never be stored as plain text.
+
+
+Password Rules:
+
+• Minimum password length: 6 characters.
+• Accept any combination of characters if minimum length is satisfied.
+• Do not force uppercase, lowercase, numbers, or special characters.
+• Keep the system simple for users.
+
+
+Reject only extremely weak passwords such as:
+
+• 123456
+• 12345678
+• password
+• password123
+• admin
+• admin123
+• qwerty
+• abc123
+• 111111
+• 000000
+
+
+If a weak password is entered:
+
+Show a message asking the user to choose a stronger password.
+
+
+LOGIN:
+
+Users login using:
+
+• Registered email
+• Password
+
+
+Provide:
+
+• Error messages for incorrect login
+• Logout option
+• Secure sessions
+
+
+FORGOT PASSWORD:
+
+Every login page must have:
+
+"Forgot Password?"
+
+
+When selected:
+
+• User enters registered email.
+• Send secure password reset email.
+• Allow user to create a new password.
+• User can login again with the new password.
+
+
+===========================================================
+NOTIFICATIONS
+===========================================================
+
+Create simple notifications.
+
+
+Examples:
+
+Applicants:
+
+• Application submitted
+• Application shortlisted
+• Interview scheduled
+
+
+Employers:
+
+• New application received
+• Subscription expiry reminder
+
+
+===========================================================
+CONTACT SUPPORT
+===========================================================
+
+Provide:
+
+• WhatsApp support button
+• Email support option
+
+
+===========================================================
+SECURITY REQUIREMENTS
+===========================================================
+
+Implement:
+
+• Secure authentication
+• Password encryption
+• Role-based authorization
+• Secure file uploads
+• Input validation
+• Protected pages
+• Database security
+
+
+===========================================================
+UI/UX REQUIREMENTS
+===========================================================
+
+Design should be:
+
+• Professional
+• Modern
+• Clean
+• Simple
+• Easy to understand
+
+
+Use:
+
+• Attractive cards
+• Proper spacing
+• Professional icons
+• Responsive layouts
+• Smooth animations
+
+
+Avoid:
+
+• Over-complicated designs
+• Unnecessary animations
+• Confusing navigation
+
+
+===========================================================
+TESTING REQUIREMENTS
+===========================================================
+
+Before completion test:
+
+
+Authentication:
+
+✓ Registration works
+
+✓ Login works
+
+✓ Logout works
+
+✓ Forgot password works
+
+
+ADMIN:
+
+✓ Dashboard works
+
+✓ Management features work
+
+
+EMPLOYER:
+
+✓ Can register
+
+✓ Can post jobs
+
+✓ Can manage applicants
+
+
+APPLICANT:
+
+✓ Can register
+
+✓ Can search jobs
+
+✓ Can apply
+
+
+General:
+
+✓ Mobile responsive
+
+✓ No broken pages
+
+✓ No console errors
+
+✓ No major bugs
+
+
+===========================================================
+FINAL INSTRUCTION
+===========================================================
+
+Build RR Consultancy Service as a complete working recruitment platform.
+
+Prioritize reliability and simplicity.
+
+Do not add unnecessary advanced features.
+
+Create a professional application that a beginner can understand, maintain, and improve in the future.
